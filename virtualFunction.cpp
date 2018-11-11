@@ -16,10 +16,10 @@ public:
 class Dog:public Animal  
 {  
 public:  
-    // void eat()  
-    // {  
-        // cout<<"i eat like a dog."<<endl;  
-    // } 
+     void eat()  
+     {  
+         cout<<"i eat like a dog."<<endl;  
+     } 
 
 	void drink()
 	{
