@@ -2,6 +2,6 @@
 #define MINUS_H
 #include <stdio.h>
 
-int (int a, int b);
+int minus(int a, int b);
 
 #endif
