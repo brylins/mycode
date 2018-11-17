@@ -10,7 +10,7 @@ usage：
 		gcc -fPIC -shared -o libminus.so minus.c
 	
 	编译demo
-		gcc -o demo demo.c -ldl   //-ldl使用与调用dlopen等函数使用 
+		gcc -o demo demo.c -ldl   //编译参数-ldl是为了使用dlopen等函数，加入该参数，只在当前路径下搜索动态库，而不在/lib和/usr/lib/下搜索
 		./demo
 	输出：
 		5 add 2 is 7
